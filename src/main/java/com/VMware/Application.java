@@ -9,6 +9,10 @@ public class Application {
             // we don't want that, we want it all in one line
             // therefor we should use the handy 'printf' feature from C, but in Java's System.out library
             System.out.printf("%c", c);
+            // OR
+            // we could also use System.out.print(...)
+            // notice it's note println, that means no new line will be added
+            // but personally I prefer printf because I enjoy writing in C
         }
     }
 }
